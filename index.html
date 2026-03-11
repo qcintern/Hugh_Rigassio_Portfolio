@@ -1,0 +1,98 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Your Name | Mechanical Engineer</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header class="container">
+    <nav class="nav">
+      <a href="#projects">Projects</a>
+      <a href="#skills">Skills</a>
+      <a href="#experience">Experience</a>
+      <a href="#education">Education</a>
+      <a href="#contact">Contact</a>
+    </nav>
+
+    <div class="hero">
+      <h1>Your Name</h1>
+      <p class="subtitle">Mechanical Engineer • Manufacturing • Design • Analysis</p>
+      <p class="lead">
+        I build practical hardware solutions & document my work clearly.
+      </p>
+      <div class="buttons">
+        <a class="btn" href="#projects">View Projects</a>
+        <a class="btn secondary" href="resume.pdf" target="_blank" rel="noopener">Download Resume</a>
+      </div>
+    </div>
+  </header>
+
+  <main class="container">
+    <section id="projects">
+      <h2>Projects</h2>
+
+      <details open>
+        <summary>Project Name 1 • One line outcome</summary>
+        <div class="detail">
+          <p><strong>What:</strong> Short description of what you built.</p>
+          <p><strong>Tools:</strong> SolidWorks, GD&T, FEA, machining, etc.</p>
+          <p><strong>Result:</strong> Quantify something if possible.</p>
+          <p>
+            <a href="#" target="_blank" rel="noopener">GitHub</a>
+            <span class="sep">•</span>
+            <a href="#" target="_blank" rel="noopener">Photos</a>
+          </p>
+        </div>
+      </details>
+
+      <details>
+        <summary>Project Name 2 • One line outcome</summary>
+        <div class="detail">
+          <p><strong>What:</strong> …</p>
+          <p><strong>Tools:</strong> …</p>
+          <p><strong>Result:</strong> …</p>
+        </div>
+      </details>
+    </section>
+
+    <section id="skills">
+      <h2>Skills</h2>
+      <div class="grid">
+        <div class="card"><h3>Design</h3><p>SolidWorks, assemblies, drawings, GD&T</p></div>
+        <div class="card"><h3>Manufacturing</h3><p>CNC, metrology, tolerancing, process docs</p></div>
+        <div class="card"><h3>Analysis</h3><p>FEA basics, hand calcs, test plans</p></div>
+        <div class="card"><h3>Software</h3><p>Python, MATLAB, Excel, Git</p></div>
+      </div>
+    </section>
+
+    <section id="experience">
+      <h2>Experience</h2>
+      <ul class="list">
+        <li><strong>Company</strong> — Role (Dates) <br/> Impact line with numbers if possible.</li>
+        <li><strong>Team / Club</strong> — Role (Dates) <br/> Impact line.</li>
+      </ul>
+    </section>
+
+    <section id="education">
+      <h2>Education</h2>
+      <p><strong>San Francisco State University</strong> — Mechanical Engineering</p>
+    </section>
+
+    <section id="contact">
+      <h2>Contact</h2>
+      <p>Email: <a href="mailto:you@email.com">you@email.com</a></p>
+      <p>GitHub: <a href="https://github.com/yourusername" target="_blank" rel="noopener">github.com/yourusername</a></p>
+    </section>
+  </main>
+
+  <footer class="container footer">
+    <p>© <span id="year"></span> Your Name</p>
+  </footer>
+
+  <script>
+    document.getElementById("year").textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
